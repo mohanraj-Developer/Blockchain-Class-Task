@@ -1,0 +1,172 @@
+***CRYPTOGRAPHY – CLASS NOTES
+Date: 29-01-2026
+________________________________________
+1. Cryptography
+Cryptography is the foundation of blockchain security. It ensures confidentiality, integrity, authentication, and non-repudiation of data.
+Types of Cryptography
+1.1 Symmetric Cryptography
+•	Same key is used for encryption and decryption
+•	Faster in execution
+•	Key sharing is risky
+1.2 Asymmetric Cryptography
+•	Uses a Public Key and a Private Key
+•	More secure than symmetric cryptography
+•	Widely used in blockchain systems
+________________________________________
+2. Blockchain Overview
+Blockchain is a distributed and immutable ledger system used to record transactions securely.
+Core Components of Blockchain
+•	Cryptography → Security and immutability
+•	Consensus → Agreement among network nodes
+•	Distributed Ledger → Shared and synchronized data
+________________________________________
+3. Role of Cryptography in Blockchain
+Cryptography is used in blockchain to provide:
+1.	Data Integrity – Ensures data is not altered
+2.	Transaction Security – Protects transactions from tampering
+3.	Decentralized Identity – Ownership is proven using cryptographic keys instead of usernames and passwords
+________________________________________
+4. Hashing
+Hashing is a cryptographic process that converts input data of any size into a fixed-length output.
+Key Characteristics of Hash Functions
+•	Fixed-length output (e.g., SHA-256 → 64 hexadecimal characters)
+•	Output contains alphanumeric characters (0–9, a–f)
+Properties of Hash Functions
+1.	Deterministic – Same input always produces the same hash
+2.	One-Way Function – Original data cannot be derived from the hash
+3.	Avalanche Effect – Small input change causes a large change in output
+4.	Collision Resistance – Two different inputs should not generate the same hash
+Hashing in Blockchain
+•	Ensures security and immutability
+•	Detects data tampering
+•	Links blocks together
+________________________________________
+5. Usage of Hashing in Blockchain
+Hashing is used in blockchain for:
+1.	Linking blocks using the previous block hash
+2.	Detecting tampering in stored data
+3.	Creating a unique fingerprint for each transaction
+________________________________________
+6. Public Key & Private Key Cryptography
+Wallet Structure
+Private Key → Public Key → Wallet Address
+A blockchain wallet is used to store cryptographic keys, send and receive cryptocurrency, and sign transactions.
+It does not store cryptocurrency directly, but controls access to blockchain assets.
+________________________________________
+
+6.1 Private Key
+•	Secret key of the user
+•	Provides full control over funds
+•	Used to sign transactions
+•	Automatically generated and can be backed up using a seed phrase
+Loss of private key = permanent loss of funds
+One who holds the private key controls the assets.
+________________________________________
+6.2 Public Key
+•	Generated from the private key
+•	Used to verify digital signatures
+•	Can be shared publicly
+________________________________________
+6.3 Wallet Address
+•	Generated from the public key
+•	Used to receive cryptocurrency
+•	Visible on the blockchain
+Example:
+0x8f47990b7bd0cb26883e5311aa80e11ed83017808
+________________________________________
+6.4 How Wallet Works (Simple Flow)
+1.	User creates a transaction
+2.	Transaction is signed using the private key
+3.	Network verifies the signature
+4.	Transaction is added to the blockchain
+ 
+________________________________________
+6.5 Importance of Wallet
+•	Ensures secure ownership
+•	Prevents unauthorized access
+•	Supports decentralization
+Wallet Summary
+Wallet = Tool to manage cryptographic keys and access blockchain assets
+________________________________________
+7. Digital Signature
+Digital signatures ensure:
+•	Proof of sender identity
+•	Integrity of transaction data
+Digital Signature Process
+1.	Transaction is created
+2.	Signed using the private key
+3.	Verified using the public key
+________________________________________
+8. Merkle Tree
+What is a Merkle Tree?
+A Merkle Tree is a tree-like data structure of hashes used to summarize and verify large amounts of data efficiently.
+Merkle Root
+•	Single hash representing all transactions in a block
+•	Stored in the block header
+•	Any change in transaction data changes the Merkle root
+Why Merkle Tree is Needed
+1.	Fast transaction verification
+2.	Reduced data transfer
+3.	Strong tamper resistance
+________________________________________
+9. Merkle Proof
+Merkle Proof is a path of hashes used to verify that a transaction belongs to a block without downloading the entire block.
+________________________________________
+10. Transactions & Merkle Tree Example
+•	Transactions: Tx1, Tx2, Tx3, Tx4
+•	Transactions are paired and hashed
+•	Final hash becomes the Merkle Root
+Any modification in a transaction propagates to the root hash.
+________________________________________
+11. Bitcoin vs Ethereum (Merkle Structure)
+Feature	Bitcoin	Ethereum
+Merkle Structure Used	Merkle Tree	Modified Merkle Patricia Tree
+Purpose	Transaction verification	Transaction and state management
+Data Stored	Transaction data only	Transactions, Receipts, Account State
+Merkle Root	Stored in block header	Multiple roots stored in block header
+Number of Trees	One	Three
+Trees Included	Transaction Merkle Tree	Transaction Trie, Receipt Trie, State Trie
+Light Client Support	SPV wallets	Ethereum light clients (not classic SPV)
+Smart Contract Support	No	Yes
+Complexity	Simple	Complex but powerful
+________________________________________
+12. Ethereum Gas Fees
+Gas fees are the charges paid to execute transactions and smart contracts on the Ethereum blockchain.
+What is Gas?
+•	Unit that measures computational work
+•	Every operation requires gas
+•	Higher computation = higher gas
+Gas Fee Formula
+Gas Fee = Gas Used × Gas Price
+Gas Price
+•	Measured in Gwei
+•	1 Ether = 1,000,000,000 Gwei
+•	Higher gas price results in faster confirmation
+Why Gas Fees Are Needed
+•	Prevent spam attacks
+•	Reward validators
+•	Control network congestion
+Reasons for High Gas Fees
+•	Network congestion
+•	High transaction demand
+•	Complex smart contracts
+
+Gas Fees and Layer-2
+•	Ethereum uses Layer-2 solutions (Rollups)
+•	Reduces gas cost
+•	Improves scalability
+________________________________________
+Overall Summary
+•	Cryptography secures blockchain using encryption and keys.
+•	Blockchain is a distributed and immutable ledger.
+•	Hashing ensures data integrity and tamper detection.
+•	Hash functions are one-way, deterministic, and collision resistant.
+•	Wallets manage cryptographic keys, not cryptocurrency.
+•	Wallet structure: Private Key → Public Key → Address.
+•	Private key proves ownership and signs transactions.
+•	Digital signatures verify sender identity and data integrity.
+•	Merkle Trees enable efficient transaction verification.
+•	Bitcoin uses Merkle Tree for transactions.
+•	Ethereum uses Merkle Patricia Tree for transactions and state.
+•	Ethereum gas fees pay for transaction and smart contract execution.
+
