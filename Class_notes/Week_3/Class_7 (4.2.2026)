@@ -1,0 +1,135 @@
+Blockchain Security, Network & Mining
+
+Double Spending Problem
+Double spending means spending the same Bitcoin in more than one transaction.
+Example:
+Sending the same Bitcoin to two different persons at the same time.
+
+Preventing Double Spending
+Group of transactions is time-stamped
+Transaction details are sent to all or many nodes in the network
+Blockchain is constantly growing & each block prevents double spending
+Blockchain ensures that any modification in block will lead to recomputing of following blocks
+Anyone can validate transaction & prevent double spending
+
+Bitcoin Attacks
+Bitcoin network is vulnerable to cyber attacks and fraud, providing tamper-proof ledger of transactions.
+People with malicious intent can exploit known vulnerabilities in blockchain technology and have been successful in several hacks and frauds over years.
+
+Hackers and Fraudsters Threaten Blockchain in 4 Primary Ways
+Phishing
+Sybil attack
+Routing
+51% attack
+
+
+Sybil Attack
+Hacker creates and uses many fake network identities to flood network and crash the system.
+Sybil refers to famous book character diagnosed with multiple identity disorder.
+
+Types of Sybil Attacks
+1. Direct Attack
+Sybil node directly influences honest node
+ 		Sybil node → Honest node
+2. Indirect Attack
+Sybil node influences middle node which in turn influences honest node
+ 		Sybil node → Middle node → Honest node
+
+Why Sybil Attack is Done
+To take control of network and allow malicious blocks & transactions
+To prevent transactions from being confirmed
+To reverse transactions
+To perform double spending
+
+Prevent Sybil Attack
+Proof of Work consensus algorithm is used to prevent Sybil attack on Bitcoin
+Many miners exist across different geographical regions
+Transactions are verified by every node and rejected as invalid if faulty transaction are included in block
+
+Node: System + Blockchain software server
+Phishing
+Phishing is scamming attempt to attain user’s credentials.
+Fraudster sends email to wallet key access that appears to come from legitimate source
+Email asks users for their credentials using fake hyperlinks
+
+Crypto Phishing
+Cyber criminals try to steal cryptocurrency from owners.
+Cyber criminals act as providers (exchange, wallet and soon) and send phishing emails.
+
+Different Ways of Crypto Phishing
+Google Ad word phishing
+Chat phishing
+Message phishing
+Social media phishing
+Email phishing
+
+Routing Attack
+Blockchain rely on real time large data transfers. Hackers can intercept data while it is being transferred to internet service providers.
+In routing attack, blockchain participant typically can’t see threat, so everything looks normal
+However, behind scene fraudsters have extracted confidential data or transactions
+
+Impact of Routing Attack
+Eg: Bitcoin where miners solve puzzle to create new block & send that block to network for confirmation.
+Imagine attacker does not allow block to reach Blockchain and delays it until another miner solves same block and gets reward. The actual miner however does not get any reward.
+Delaying time to solve puzzle
+BGP: Border Gateway Protocol is glue that holds internet together by disseminating information about how to reach destination in remote network. (Individual)  
+ASes: Internet is made up of approximately 67,000 autonomous systems. Each with its own AS number (ASN) and set of IP prefixes. (Group)
+Another problem arises when 50% of Bitcoin nodes are concentrated in 3 countries only and it is difficult to imagine China alone has around 80% of Bitcoin mining pool in world.
+According to research, 60% of Bitcoin connections use only 3 ASes & if an attacker hacks these 3 ASes they can disrupt Bitcoin network.
+
+51% Attack Points
+Mining especially for large scale public blockchain requires a significant amount of computing power
+If miner / group of miners could rally enough resources they could attain more than 50% of blockchain mining power
+Having more than 50% of power means having control over ledger and ability to manipulate it
+Private blockchains are not vulnerable to 51% attack.
+
+
+
+
+
+
+
+
+
+Bitcoin Networks
+Bitcoin is an ad-hoc network with mesh topology
+Protocol runs on TCP 8333.  [TCP – Transmission Control Protocol]
+All the nodes are treated equally in Bitcoin network
+New node can join network anytime and non-responsive nodes are removed after 3hrs
+
+Two Types of Bitcoin Networks
+1. Main Network - Actual network on which all cryptocurrency exchange and transactions are conducted
+2. Test Network - Network that mimics behaviour of main network and is used to test new applications and scripts
+
+Bitcoin Nodes
+1. Full Node
+Implementation of Bitcoin core client Performing wallet, memory, blockchain storage Network routing function
+2. Light Node
+Capable of only wallet and networking routing functionality
+
+Joining Bitcoin Network
+Steps performed to join Bitcoin network as an active node (miner):
+Requesting seed node → Retrieving Address list → Selecting peer node → Updating network
+Step 1: Requesting Seed Node
+There are certain special nodes in Bitcoin network called seed nodes that have a list of all active full nodes. New joining nodes ask for list of addresses from seed node.
+Step 2: Retrieving Address List
+Seed node sends them addresses in response to node request to join network.
+
+Step 3: Selecting Peer Node
+Joining node selects address from list & requests to join network.
+Step 4: Updating Network
+A newly joined node gets most recent copy of blockchain peers.
+
+Bitcoin Mining
+Bitcoin mining is the process of creating new bitcoin by solving complex mathematical problems.
+Verify the legitimacy of transaction
+Include the verified transaction in block
+PoW consensus among all the active nodes generates valid nonce
+A new block is added to chain once consensus is achieved
+
+Mining:
+Mining:  Limited supply ↓
+Demand ↑  Price ↑
+Eg: Gold
+Block reward is high for  blocks Halving
+
