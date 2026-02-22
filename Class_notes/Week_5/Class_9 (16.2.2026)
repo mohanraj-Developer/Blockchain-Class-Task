@@ -1,0 +1,81 @@
+                               ETHEREUM
+
+1. Introduction to Ethereum
+• Founded in 2015 by Vitalik Buterin.
+• A decentralized platform that runs smart contracts.
+• Native cryptocurrency: Ether (ETH).
+• Key Components: Smart Contracts, Gas, Ethereum Virtual Machine (EVM).
+• Supports Decentralized Applications (DApps).
+2. Enterprise Ethereum Alliance (EEA)
+• Formed in 2017.
+• Consortium of technology companies, financial institutions, startups, and academics.
+• Promotes Ethereum technology for enterprise use.
+• Focus: Private networks, security, interoperability, and standard guidelines.
+• Members include companies like Accenture, Intel, Microsoft, and JP Morgan.
+• Industry sectors: Healthcare, Energy, Technology, Banking.
+3. Smart Contracts
+• Self-executing programs stored on the Ethereum blockchain.
+• Written in languages like Solidity.
+• Compiled into bytecode and executed by the EVM.
+• Used for decentralized finance (DeFi), tokens, agreements, and DApps.
+• Automatically execute when predefined conditions are met.
+4. Ethereum Virtual Machine (EVM)
+• Runtime environment for executing smart contracts.
+• Stack-based architecture (LIFO).
+• Stack size: 1024 elements, each 256 bits (32 bytes).
+• Ensures deterministic execution across the network.
+5. Ether 
+Ether is the primary digital asset or cryptocurrency of the Ethereum platform.
+It is a transactional token that facilitates the operation of ethereum.
+All Gas prices are paid in Ethers.
+                             BITCOIN	                              ETHER
+1.Uses Secure hash algorithm(SHA-256)	1.Uses Ethash algorithm
+2.Used as currency for purchasing goods and services	2.Used as currency for making decentralized Apps(DApps)
+3.Digital currency to compete against FIAT currencies and Gold	3.Mainly used for Smart Contracts
+4.Slow Transaction speed	4.Fast Transaction speed
+
+5.Very high mining price
+	5.Low gas price comparatively
+6. Gas and Gas Price
+• Gas measures computational effort required to execute operations.
+• Gas fee = Gas Limit × Gas Price.
+• Paid in Ether.
+• Prevents network spam and infinite loops.
+7. Ethereum Accounts
+• Two types of accounts:
+   1. Externally Owned Account (EOA) – Controlled by private key, can send transactions.
+   2. Contract Account – Controlled by smart contract code.
+• EOAs cannot create contracts directly without sending transactions.
+• Contract accounts execute code automatically.
+8. Ethereum Mining (PoW Concept)
+• Process of validating transactions and adding blocks to blockchain.
+• Previously used Proof of Work (PoW).
+• Miners received block rewards and transaction fees.
+• Uncle blocks: Valid but not included in main chain; rewarded partially.
+9. DAO
+• Internet-based organization governed by smart contracts.
+• Decisions made by community voting.
+• No centralized authority.
+• Transparent and secure governance mechanism.
+10. Swarm
+• Decentralized storage and content distribution service for Ethereum.
+• Uses chunking and Merkle trees.
+• Stores DApp code and blockchain-related data.
+• Peer-to-peer data sharing network.
+11. IPFS (InterPlanetary File System)
+• Decentralized file storage system.
+• Uses content addressing (CID).
+• Enables distributed global namespace.
+• Often integrated with Ethereum DApps.
+12. BitTorrent
+• Peer-to-peer file sharing protocol.
+• Uses torrent files and trackers.
+• Efficient distribution of large files across network.
+13. Whisper (Decentralized Messaging)
+• Identity-based messaging protocol.
+• Provides encrypted peer-to-peer communication.
+• Low-level API for decentralized communication.
+• Designed to prevent tracking and ensure privacy.
+
+                                                                                                                                           BY BAVALYA
+                                                                                                  16.02.2026
