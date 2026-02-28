@@ -1,0 +1,135 @@
+Blockchain Roles – Wipro, Infosys, Accenture 
+
+1. Wipro – Blockchain Roles (Current & Past)
+
+1.1 Senior Blockchain Developer (Closed)
+Organization: Wipro
+Experience: 5+ years software development, 3+ years blockchain
+Role Summary:
+Design, develop, and optimize blockchain applications with a focus on stablecoin/token issuance, crypto trading platforms, and multi-chain interoperability.
+Key Responsibilities:
+Develop smart contracts for token lifecycle management, DEX/CEX trading logic, and AMM pools.
+Integrate with multiple blockchain networks (Ethereum/EVM chains, Layer 2s, Cosmos, Solana).
+Implement secure coding standards, testing frameworks, and oracle integrations.
+Collaborate with security, DevOps, and compliance teams.
+Skills Required:
+Solidity and Rust programming.
+Frameworks: Hardhat, Foundry, Anchor.
+Token standards: ERC-20, ERC-4626.
+Strong understanding of DEX/AMM mechanics, oracles, and compliance workflows.
+
+1.2 Blockchain Consultant (Open)
+Organization: Wipro
+Experience: 6+ years in blockchain consulting/architecture
+Role Summary:
+Provide strategic blockchain consultancy, solution architecture, and oversight for enterprise blockchain projects including tokenization and trading systems.
+Key Responsibilities:
+Advise clients on blockchain strategy and architecture.
+Design enterprise blockchain solutions using EVM chains, Layer 2s, Cosmos, and interoperability protocols.
+Translate business requirements into scalable technical solutions.
+Skills Required:
+Strong experience in stablecoin design and crypto trading platforms.
+Deep understanding of blockchain security, custody, and regulatory compliance.
+
+1.3 Blockchain Architect (Open)
+Organization: Wipro
+Role Summary:
+Lead the architecture of blockchain platforms including stablecoin/token infrastructure, interoperability, wallets, custody, and compliance integrations.
+Key Responsibilities:
+Architect core platform components such as mint/burn mechanisms, treasury systems, and oracle workflows.
+Select appropriate blockchains, Layer 2s, and cross-chain solutions.
+Integrate secure wallets, custody platforms, analytics, and compliance systems.
+Skills Required:
+Hands-on experience with Solidity and Rust.
+Cloud platforms: AWS, Azure, or GCP.
+Knowledge of token standards, threat modeling, audit processes, MEV, rollups, and cross-chain protocols.
+
+Past / Archived Roles at Wipro
+Blockchain Developer roles focusing on EVM, cryptography, blockchain fundamentals, and system integration.
+Note: These indicate Wipro’s continued interest in blockchain talent and may reopen in the future.
+
+
+2. Infosys – Blockchain Roles (Current & Past)
+2.1 Blockchain Developer (Open)
+Organization: Infosys
+Role Summary:
+Develop enterprise blockchain solutions using platforms such as Hyperledger Fabric, R3 Corda, and Ethereum, with focus on on-chain/off-chain data optimization.
+Key Responsibilities:
+Implement blockchain backends and smart contract interfaces.
+Design efficient on-chain and off-chain data architectures.
+Collaborate with Agile teams across the full SDLC lifecycle.
+Skills Required:
+Strong understanding of DLT fundamentals and consensus algorithms.
+Java/J2EE, Spring Boot, Docker, Jenkins.
+Cloud exposure (Azure preferred).
+Strong communication and problem-solving skills.
+
+2.2 Blockchain Senior Tech Lead / Architect (Open)
+Organization: Infosys
+Role Summary:
+Lead blockchain architecture initiatives and mentor teams in delivering enterprise-grade blockchain solutions.
+Key Responsibilities:
+Drive architecture design and solution delivery.
+Measure performance and educate teams on blockchain frameworks.
+Apply Agile and SDLC best practices.
+Skills Required:
+Blockchain fundamentals and smart contract development.
+Performance benchmarking and architecture design experience.
+Tools: Docker, Angular, GoLang, JavaScript.
+Strong leadership and communication skills.
+
+Past / Closed Roles at Infosys
+Blockchain Senior Developer – Hyperledger, Corda, Ethereum.
+Blockchain Architect – DLT frameworks, consensus, and enterprise fundamentals.
+Past listings closely mirror current requirements and may reappear.
+
+3. Accenture – Blockchain & Related Technology Roles
+3.1 Full Stack Engineer (Blockchain Exposure)
+Organization: Accenture
+Role Summary:
+Develop full-stack enterprise solutions where blockchain is a core enabling technology.
+Key Responsibilities:
+Build end-to-end applications (frontend and backend).
+Integrate blockchain technology into enterprise systems.
+Work in cross-functional Agile teams with cloud focus.
+Skills Required:
+3+ years experience including blockchain exposure.
+React.js, Node.js (preferred).
+Cloud and DevOps knowledge (Azure).
+
+Other Accenture Roles with Blockchain Relevance
+Technology Strategy & Advisory roles.
+Product Management and Consulting positions requiring blockchain/DLT understanding.
+
+
+
+
+Common Skills in Demand Across Wipro, Infosys, and Accenture
+Blockchain & Distributed Ledger Technologies
+Blockchain fundamentals (DLT, consensus mechanisms, cryptography)
+Smart contract development and token standards (ERC-20, ERC-721)
+Ethereum and EVM-compatible blockchain networks
+On-chain and off-chain system integration
+Programming & Application Development
+Solidity and Rust
+Java, JavaScript, TypeScript
+Node.js–based backend development
+Frameworks, Tools & Platforms
+Smart contract frameworks: Hardhat, Foundry
+Enterprise blockchain platforms: Hyperledger Fabric, R3 Corda
+Application frameworks: Spring Boot
+Containerization and DevOps tools: Docker, CI/CD pipelines
+Cloud & Infrastructure
+Cloud platforms: AWS, Microsoft Azure, Google Cloud Platform (GCP)
+Security & Compliance
+Secure coding practices for smart contracts
+Blockchain security, audit awareness, and compliance fundamentals
+Delivery, Collaboration & Methodologies
+Agile and SDLC-based project delivery
+Effective communication and cross-functional teamwork
+Analytical thinking and problem-solving skills
+
+Where to Apply
+Wipro: careers.wipro.com (search keyword: Blockchain)
+Infosys: infosys.com/careers (technology & blockchain roles)
+Accenture: accenture.com/careers (filter by technology and blockchain keywords)
